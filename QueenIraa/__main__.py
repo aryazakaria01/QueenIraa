@@ -3,7 +3,7 @@ import importlib
 import re
 import datetime
 from typing import Optional, List
-import resource
+import resources
 import platform
 import sys
 import traceback
@@ -58,7 +58,7 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/ferikunn/QueenIraaRobot)
+⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/ferikunn/QueenIraa)
 ⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/hitokizzy/QueenIraa_bot.git)
 """
 
@@ -601,7 +601,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("QueenIraaRobot running...")
+        LOGGER.info("QueenIraa running...")
         updater.start_polling(timeout=15, read_latency=4)
         
     if len(argv) not in (1, 3, 4):
