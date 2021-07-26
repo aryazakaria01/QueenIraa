@@ -67,3 +67,4 @@ pygithub
 pykeyboard
 PyDictionary==2.0.1
 motor
+memes
