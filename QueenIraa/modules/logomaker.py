@@ -53,7 +53,7 @@ async def lego(event):
   if not quew:
      await event.reply('Masukan text!')
      return
- await event.reply('await event.reply('QueenIraa memproses gambar...!!')
+ await event.reply('QueenIraa memproses gambar...!!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./QueenIraa/resources/blackbg.jpg')
