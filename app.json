@@ -2,7 +2,7 @@
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "13"
          },
          "plan": "heroku-postgresql"
       }
@@ -106,7 +106,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/53d366f2792d3fcda6e17.jpg"    
+         "value": "https://telegra.ph/file/e8835f7d3089cf7bfbca0.jpg"    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -184,8 +184,8 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "QueenIraa",
+   "name": "DolaRobot",
    "repository": "https://github.com/hitokizzy/QueenIraa",
-   "success_url": "https://telegram.dog/QueenIraa",
-   "logo": "https://telegra.ph/file/53d366f2792d3fcda6e17.jpg"
+   "success_url": "https://telegram.dog/DolaRobot",
+   "logo": "https://telegra.ph/file/077189a08f2d4583e6ed9.jpg"
 }
